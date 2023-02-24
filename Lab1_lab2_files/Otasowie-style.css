@@ -1,0 +1,47 @@
+/* Michael Otasowie CSS  Document
+http://www.sci.brooklyn.cuny.edu/~xiang/cisc1600/
+*/
+
+body
+{
+    background: white;
+    color: brown;
+}
+
+a:link, a:visited, a:active 
+{
+    color: red;
+}
+
+a:hover 
+{
+    font-size: 150%;
+    background: green;
+    font-family: monospace;
+    color: yellow;
+    text-decoration: none;
+}
+
+.caution
+{
+    font-size: 120%;
+    color: red;
+}
+
+table
+{
+    background: black;
+    color: whitesmoke;
+}
+
+ul
+{
+    background: orange;
+}
+
+li
+{
+    font-size: 16pt;
+    border: solid;
+    border-width: thin;
+}

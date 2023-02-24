@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html 
+{
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #740aff;
+    color: #ffffff;
+    
+    padding: 15px;
+  }
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #d16ba5, #f2748e, #ff8774, #ffa35d, #f2c353, #dcd55c, #c1e570, #a3f48e, #8af8a9, #73fac4, #63fbdc, #5ffbf1);;
+}
+
+
+.MyHomePage
+{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    
+}
+
+a:link, a:visited, a:active 
+{
+    font-size: 180%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+a:hover 
+{
+    font-size: 190%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lower
+{
+    font-size: 60%;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+  
+th, td 
+{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) 
+{
+    background-color: #ffffffc0;
+}
+
+ol {
+    background: rgba(245, 151, 28, 0.4);
+    padding: 20px;
+    font-size: 100%;
+  }
+  
+.centered 
+{
+    vertical-align:middle;
+    text-align: center;
+    font-size: 100%;
+    padding: 10%;
+    padding-top: 8%;
+    padding-bottom: 0%;
+
+}
+.centerimg 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.centerimgOther
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+}
+
+.fade_rule {
+    height: 1px;
+    background-color: #000000;
+    width: 66.0em;
+    margin: 0 auto;
+    /* background-image: linear-gradient(left , black 2%, #000000 50%, black 98%);
+    background-image: -o-linear-gradient(left , black 2%, #000000 50%, black 98%);
+    background-image: -moz-linear-gradient(left , black 2%, #000000 50%, black 98%);
+    background-image: -webkit-linear-gradient(left , black 2%, #000000 50%, black 98%);
+    background-image: -ms-linear-gradient(left , black 2%, #000000 50%, black 98%); */ 
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, gray), color-stop(0.5, black), color-stop(0.98, gray) );
+}
+
+img
+{
+    border: #000000;
+    padding: 1%;
+    vertical-align:middle;
+}
+
+
+.col-1 
+{
+    width: 33.333%;
+    float: left;
+}
+.col-2 
+{
+    width: 33.333%;
+    float: left;
+}
+.col-3 
+{
+    width: 33.333%;
+    float: left;
+}
+/* For mobile phones: */
+[class*="col-"] 
+{
+    width: 100%;
+}
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-1{width:100%}
+    .col-2{width:100%}
+    .col-3{width:100%}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1{width:33%}
+    .col-2{width:33%}
+    .col-3{width:33%}
+  }
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
