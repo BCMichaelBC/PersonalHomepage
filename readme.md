@@ -1,1 +1,1 @@
-I created this webpage for a CISC 1600 it was fun to make and im putting it on github pages just to test how it works
+I created this webpage for a CISC 1600 it was fun to make and im putting it on github pages just to test how it works 
